@@ -49,8 +49,8 @@ ui <- fluidPage(
       h3('Proportion Comparision Inputs'),
       sliderInput("baseline", "Baseline Proportion:",min = 0, max = 1, value = 0.45),
       numericInput("min_delta", "Minimum Relative Lift:",min = 0, max = 1, value = 0.0),
-      numericInput("max_delta", "Maximum Relative Lift:",min = 0, max = 1, value = 0.2),
-      numericInput("incremental_differences", "Increments Between Min and Max",min = .001, max = .1, value = 0.01),
+      numericInput("max_delta", "Maximum Relative Lift:",min = 0, max = 1, value = 0.1),
+      numericInput("incremental_differences", "Increments Between Min and Max",min = .001, max = .1, value = 0.02),
       numericInput("min_effect_desized", "Minimum Effect Desired",min = .001, max = .1, value = 0.01),
       ##
       h3('Sample Size Inputs'),
